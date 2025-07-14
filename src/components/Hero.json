@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "title": "Cerchi uno Spazio?",
+      "imagerUrl": "/space.jpg",
+      "linkUrl": "/spazi"
+    },
+    {
+      "title": "Cerchi un Operatore?",
+      "imagerUrl": "/operatore2.jpg",
+      "linkUrl": "/operatori"
+    },
+    {
+      "title": "Valuta il tuo impatto",
+      "imagerUrl": "/impact.jpg",
+      "linkUrl": "/impact"
+    }
+  ]
+}

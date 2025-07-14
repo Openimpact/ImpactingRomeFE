@@ -1,0 +1,71 @@
+.embla__dot,
+.embla__button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.embla__dots {
+  z-index: 1;
+  bottom: 0;
+  padding: 1rem .1rem .2rem .1rem; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0,0,0,.3) 0%, rgba(255,0,0,0) 100%);
+}
+.embla__dot {
+  flex-grow:1;
+  height: .3rem;
+  border-radius: .5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
+}
+.embla__dot:after {
+  background: var(--background-site);
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 0.3rem;
+  content: "";
+}
+.embla__dot--selected:after {
+  background-color: rgba(255, 255, 255, 1);
+}
+.embla__button {
+  z-index: 1;
+  color: var(--background-site);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 45%;
+  transform: translateY(-45%);
+  cursor: pointer;
+  width: 4rem;
+  height: 2rem;
+}
+.embla__button--prev {
+  left: 1.6rem;
+}
+.embla__button--next {
+  right: 1.6rem;
+}
+.embla__button:disabled {
+  opacity: 0.3;
+}
+.embla__button__svg {
+  width: 65%;
+  height: 65%;
+}
+

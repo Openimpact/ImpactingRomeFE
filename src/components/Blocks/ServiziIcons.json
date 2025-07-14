@@ -1,0 +1,49 @@
+{
+  "icons": [
+    {
+      "id": 1,
+      "name": "wifi",
+      "imageUrl": "/icons/wifi.svg"
+    },
+    {
+      "id": 2,
+      "name": "accessible",
+      "imageUrl": "/icons/accessible.svg"
+    },
+    {
+      "id": 3,
+      "name": "airCondition",
+      "imageUrl": "/icons/airCondition.svg"
+    },
+    {
+      "id": 4,
+      "name": "beer",
+      "imageUrl": "/icons/beer.svg"
+    },
+    {
+      "id": 5,
+      "name": "building",
+      "imageUrl": "/icons/building.svg"
+    },
+    {
+      "id": 6,
+      "name": "chair",
+      "imageUrl": "/icons/chair.svg"
+    },
+    {
+      "id": 7,
+      "name": "payPal",
+      "imageUrl": "/icons/payPal.svg"
+    },
+    {
+      "id": 8,
+      "name": "pet",
+      "imageUrl": "/icons/pet.svg"
+    },
+    {
+      "id": 9,
+      "name": "wc",
+      "imageUrl": "/icons/wc.svg"
+    }
+  ]
+}

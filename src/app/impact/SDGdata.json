@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "sdgName": "No Poverty",
+      "description": "Porre fine alla povertà in tutte le sue forme, ovunque",
+      "icon_url": "/SDG/01.png",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "description": "Porre fine alla fame, raggiungere la sicurezza alimentare e una migliore nutrizione e promuovere un'agricoltura sostenibile",
+      "sdgName": "Fame Zero",
+      "icon_url": "/SDG/02.png",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "sdgName": "Buona salute e benessere",
+      "description": "Garantire una vita sana e promuovere il benessere per tutti a tutte le età",
+      "icon_url": "/SDG/03.png",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "sdgName": "Educazione di qualità",
+      "description": "Garantire un'istruzione di qualità inclusiva ed equa e promuovere opportunità di apprendimento permanente per tutti",
+      "icon_url": "/SDG/04.png",
+      "checked": false
+    },
+    {
+      "id": 5,
+      "sdgName": "Parità di genere",
+      "description": "Raggiungere l'uguaglianza di genere ed emancipare tutte le donne e le ragazze",
+      "icon_url": "/SDG/05.png",
+      "checked": false
+    },
+    {
+      "id": 6,
+      "sdgName": "Acqua pulita e servizi igienici",
+      "description": "Garantire la disponibilità e la gestione sostenibile di acqua e servizi igienici per tutti",
+      "icon_url": "/SDG/06.png",
+      "checked": false
+    },
+    {
+      "id": 7,
+      "sdgName": "Energia accessibile e pulita",
+      "description": "Garantire l'accesso a un'energia economica, affidabile, sostenibile e moderna per tutti",
+      "icon_url": "/SDG/07.png",
+      "checked": false
+    },
+    {
+      "id": 8,
+      "sdgName": "Lavoro dignitoso e crescita economica",
+      "description": "Promuovere una crescita economica sostenuta, inclusiva e sostenibile, un'occupazione piena e produttiva e un lavoro dignitoso per tutti",
+      "icon_url": "/SDG/08.png",
+      "checked": false
+    },
+    {
+      "id": 9,
+      "sdgName": "Industria, innovazione e infrastrutture",
+      "description": "Costruire infrastrutture resilienti, promuovere un'industrializzazione inclusiva e sostenibile e favorire l'innovazione",
+      "icon_url": "/SDG/09.png",
+      "checked": false
+    },
+    {
+      "id": 10,
+      "sdgName": "Disuguaglianze ridotte",
+      "description": "Ridurre le disuguaglianze all'interno e tra i Paesi",
+      "icon_url": "/SDG/10.png",
+      "checked": false
+    },
+    {
+      "id": 11,
+      "sdgName": "Città e comunità sostenibili",
+      "description": "Rendere le città e gli insediamenti umani inclusivi, sicuri, resilienti e sostenibili",
+      "icon_url": "/SDG/11.png",
+      "checked": false
+    },
+    {
+      "id": 12,
+      "sdgName": "Consumo e produzione responsabile",
+      "description": "Garantire modelli di consumo e produzione sostenibili",
+      "icon_url": "/SDG/12.png",
+      "checked": false
+    },
+    {
+      "id": 13,
+      "sdgName": "Azione per il clima",
+      "description": "Adottare azioni urgenti per combattere il cambiamento climatico e i suoi impatti",
+      "icon_url": "/SDG/13.png",
+      "checked": false
+    },
+    {
+      "id": 14,
+      "sdgName": "Vita sotto l'acqua",
+      "description": "Conservare e utilizzare in modo sostenibile gli oceani, i mari e le risorse marine per uno sviluppo sostenibile",
+      "icon_url": "/SDG/14.png",
+      "checked": false
+    },
+
+    {
+      "id": 15,
+      "sdgName": "Vita a terra",
+      "description": "Proteggere, ripristinare e promuovere l'uso sostenibile degli ecosistemi terrestri, gestire in modo sostenibile le foreste, combattere la desertificazione, arrestare e invertire il degrado del territorio e fermare la perdita di biodiversità",
+      "icon_url": "/SDG/15.png",
+      "checked": false
+    },
+    {
+      "id": 16,
+      "sdgName": "Pace e giustizia - Istituzioni forti",
+      "description": "Promuovere società pacifiche e inclusive per uno sviluppo sostenibile, fornire accesso alla giustizia per tutti e costruire istituzioni efficaci, responsabili e inclusive a tutti i livelli",
+      "icon_url": "/SDG/16.png",
+      "checked": false
+    },
+    {
+      "id": 17,
+      "sdgName": "partnership per gli obiettivi",
+      "description": "Rafforzare i mezzi di attuazione e rivitalizzare il partenariato globale per lo sviluppo sostenibile",
+      "icon_url": "/SDG/17.png",
+      "checked": false
+    }
+  ]
+}

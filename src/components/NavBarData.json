@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "Cerco uno spazio",
+      "path": "/spazi"
+    },
+    {
+      "title": "Cerco un operatore",
+      "path": "/operatori"
+    },
+    {
+      "title": "Valutazione d'impatto",
+      "path": "/impact"
+    }
+  ],
+  "data2": [
+    {
+      "title": "Iscriviti come operatore",
+      "path": "/register/operatore"
+    },
+    {
+      "title": "Crea un progetto",
+      "path": "/register/progetto"
+    },
+    {
+      "title": "Impatto",
+      "path": "/impact"
+    },
+    {
+      "title": "Application",
+      "path": "/application"
+    }
+    ,{
+      "title": "Registra il tuo spazio",
+      "path": "/register/spazio"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "datatype": [
+    {
+      "type": "Teatro"
+    },
+    {
+      "type": "Sala eventi"
+    },
+    {
+      "type": "Cinema"
+    },
+    {
+      "type": "Biblioteca"
+    },
+    {
+      "type": "Scuola"
+    }
+  ]
+}

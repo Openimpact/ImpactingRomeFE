@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "outcomeName": "vampirus 1",
+      "outcomeDescription": "lorem ipsum bla bla",
+      "SDG": [1, 2, 3],
+      "indicators": [
+        {
+          "indicatorName": "vampirus 1",
+          "indicatorDescription": "lorem ipsum bla bla",
+          "proxy": [
+            {
+              "proxyName": "vampirus 1",
+              "proxySource": "bla bla",
+              "proxyValue": "blu blu"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
