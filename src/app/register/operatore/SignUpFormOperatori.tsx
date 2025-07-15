@@ -13,7 +13,7 @@ type Props = {};
 
 function SignUpFormOperatori({}: Props) {
   const [, setNextStep] = useAtom(
-    RegisterOperatoriStepperAtomsProps.nextStepAtom
+    RegisterOperatoriStepperAtomsProps.nextStepAtom,
   );
   const [user, setUser] = useAtom(directus_user);
   const directus = useDirectus();
@@ -31,32 +31,32 @@ function SignUpFormOperatori({}: Props) {
       privacy_consent: false,
     },
     validate: {
-      first_name: (value) => {
+      first_name: (value: any) => {
         if (value.length < 2) {
           return "Il nome deve essere lungo almeno 2 caratteri";
         }
       },
-      last_name: (value) => {
+      last_name: (value: any) => {
         if (value.length < 2) {
           return "Il cognome deve essere lungo almeno 2 caratteri";
         }
       },
-      email: (value) => {
+      email: (value: any) => {
         if (!value.includes("@")) {
           return "L'indirizzo email non è valido";
         }
       },
-      password: (value) => {
+      password: (value: any) => {
         if (value.length < 6) {
           return "La password deve essere lunga almeno 6 caratteri";
         }
       },
-      password_confirmation: (value, values) => {
+      password_confirmation: (value: any, values: any) => {
         if (value !== values.password) {
           return "Le password non coincidono";
         }
       },
-      privacy_consent: (value) => {
+      privacy_consent: (value: any) => {
         if (!value) {
           return "Devi acconsentire al trattamento dei dati personali";
         }
@@ -140,7 +140,7 @@ function SignUpFormOperatori({}: Props) {
                         createUser({
                           ...signupform.values,
                           role: "c5d635b9-8517-4d40-bc90-244ffec76ce8",
-                        })
+                        }),
                       )
                       /* fetch("/api/operatori/register",{
                     method: "POST",
@@ -152,12 +152,12 @@ function SignUpFormOperatori({}: Props) {
                     setUser({})*/
                         return directus.login(
                           signupform.values.email,
-                          signupform.values.password
+                          signupform.values.password,
                         );
                       })
                       .then(
                         async (res) =>
-                          await directus.request(readMe({ fields: ["*"] }))
+                          await directus.request(readMe({ fields: ["*"] })),
                       )
                       .then((res) => {
                         setUser(res);

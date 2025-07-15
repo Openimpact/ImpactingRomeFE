@@ -17,7 +17,7 @@ export class Repository<Collection extends keyof CustomDirectusTypes> {
   client: RestClient<CustomDirectusTypes>;
   constructor(
     client: RestClient<CustomDirectusTypes>,
-    collectionName: RegularCollections<CustomDirectusTypes>
+    collectionName: RegularCollections<CustomDirectusTypes>,
   ) {
     this.collectionName = collectionName;
     this.client = client;
@@ -28,14 +28,14 @@ export class Repository<Collection extends keyof CustomDirectusTypes> {
   }
 
   async createItems(
-    items: Partial<UnpackList<CustomDirectusTypes[Collection]>>[]
+    items: Partial<UnpackList<CustomDirectusTypes[Collection]>>[],
   ) {
     return await this.client.request(createItems(this.collectionName, items));
   }
 
   async readItem(key: string | number, fields?: string[] | undefined) {
     const response = await this.client.request(
-      readItem(this.collectionName, key, { fields })
+      readItem(this.collectionName, key, { fields }),
     );
     console.log(JSON.stringify(response, null, 2));
     return response;
@@ -44,16 +44,21 @@ export class Repository<Collection extends keyof CustomDirectusTypes> {
   async readItems(
     fields?: string[],
     filter?: QueryFilter<CustomDirectusTypes, Collection>,
-    limit?: number
+    limit?: number,
   ) {
     return await this.client.request(
       //@ts-ignore
-      readItems(this.collectionName, { fields, filter: {
-        ...filter,
-        "status": {
-          "_in" : ["published","draft"]
-        }
-      }, limit: limit ?? 180 })
+      readItems(this.collectionName, {
+        fields,
+        filter: {
+          ...filter,
+          //@ts-ignore
+          status: {
+            _in: ["published", "draft"],
+          },
+        },
+        limit: limit ?? 180,
+      }),
     );
   }
   async search(fields?: string[], search?: string, limit?: number) {
@@ -63,16 +68,16 @@ export class Repository<Collection extends keyof CustomDirectusTypes> {
         fields,
         search,
         limit: limit ?? 100,
-      })
+      }),
     );
   }
 
   async updateItem(
     key: string | number,
-    item: Partial<UnpackList<CustomDirectusTypes[Collection]>>
+    item: Partial<UnpackList<CustomDirectusTypes[Collection]>>,
   ) {
     return await this.client.request(
-      updateItem(this.collectionName, key, item)
+      updateItem(this.collectionName, key, item),
     );
   }
 
