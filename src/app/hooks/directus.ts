@@ -6,7 +6,7 @@ import { NEXT_URL } from "next/dist/client/components/app-router-headers";
 import { useEffect, useState } from "react";
 
 const directus_url_atom = atom(
-  process.env.NEXT_DIRECTUS_URL ?? "http://localhost:8055",
+  process.env.NEXT_PUBLIC_DIRECTUS_URL ?? "http://localhost:8055",
 );
 const directus_client_atom = atom((get, set) =>
   createDirectus<CustomDirectusTypes>(get(directus_url_atom))

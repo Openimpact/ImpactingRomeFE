@@ -1,6 +1,6 @@
 const directus_token: string = process.env.NEXT_DIRECTUS_TOKEN ?? "";
 export const directus_url: string =
-  process.env.NEXT_DIRECTUS_URL ?? "http://localhost:8055";
+  process.env.NEXT_PUBLIC_DIRECTUS_URL ?? "http://localhost:8055";
 //const directus_token = "Qhtoy7_YxXjkwNoR1JHBM7OJGz_7RKoo";
 //export const directus_url = "https://impacting-rome.rizo.tech";
 
